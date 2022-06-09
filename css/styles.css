@@ -61,12 +61,12 @@ img {
 }
 
 .section {
-  margin-bottom: 94px;
+  padding-bottom: 94px;
 }
 
 .container {
   width: 1200px;
-  padding: 0 20px;
+  padding: 0 15px;
   margin: 0 auto;
 }
 
@@ -249,6 +249,10 @@ img {
 }
 /* -------------STRENGTHS----------- */
 
+.strengths {
+  padding-top: 94px;
+}
+
 .strengths-list {
   display: flex;
   justify-content: center;
@@ -354,8 +358,8 @@ img {
 
 .footer {
   background-color: var(--tagline-backgroundcolor); 
-  padding-top: 64px;
-  padding-bottom: 56px;
+  padding-top: 60px;
+  padding-bottom: 60px;
  }
 
 
@@ -385,7 +389,9 @@ img {
  }
  
 /* -------------FILTER----------- */
-
+.filter {
+  padding-top: 94px;
+}
 
 .filter-list {
   display: flex;
@@ -409,6 +415,7 @@ img {
   cursor: pointer;
   border: none;
   border-radius: 4px;
+  padding: 6px 22px;
 }
 
 .filter-button:hover,
@@ -424,6 +431,7 @@ img {
   display: flex;
   flex-wrap: wrap;
   margin:-15px;
+  border-top: none;
 }
 
 .gallery-item {
